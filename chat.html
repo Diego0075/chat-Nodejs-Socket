@@ -124,11 +124,14 @@ $('#button-negrita').click(function(){
 });
 
 
+// Imprime del Nuevo Mensaje la variable mensaje
 
 socket.on('mensaje', function(data){
     var nuevoMensaje = '<b>' +data.usuario+' dijo: </b>'+data.mensaje;
     $('#chat-mensajes').append(nuevoMensaje+'<br/>')
 })
+
+// Imprime del menseBold la variable mensajebold solamente
 
 socket.on('mensajebold', function(data){
     var nuevoMensaje = '<b>' +data.usuario+' dijo: </b>'+'<b>'+data.mensajebold+'</b>';

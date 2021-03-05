@@ -15,6 +15,8 @@ io.on('connection',function(socket){
         username = data;
     });
 
+
+    //  He creado uno para que lo reciba como normal en el chat.html
     socket.on('mensajeNuevo', function(data){
 
         // Con el broadcast lo que hacemos es emitir el mensaje del socket a todos lados menos al que lo envía
@@ -31,6 +33,7 @@ io.on('connection',function(socket){
 
     });
 
+    // Este otro lo almacena en mensajebold para imprimirlo en el chat.html y que no use el mensajeNuevo de arriba
     socket.on('mensajeNuevobold', function(data){
 
         // Con el broadcast lo que hacemos es emitir el mensaje del socket a todos lados menos al que lo envía
