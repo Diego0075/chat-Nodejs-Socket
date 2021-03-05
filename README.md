@@ -10,7 +10,7 @@ npm install
 nodemon index.js
 ```
 
-## Ruta
+## Ruta para lanzar
 
 
 http://localhost:3000/
