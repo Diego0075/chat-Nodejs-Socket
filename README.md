@@ -5,7 +5,9 @@
 npm install
 ```
 
-En consola (nodemon index.js)
-
+## En consola
+```
+nodemon index.js
+```
 
 http://localhost:3000/
