@@ -99,12 +99,6 @@ $('#button-ingresar').click(function(){
     }
 });
 
-$('#text-mensaje').keypress(function(event){
-    if (event.which==13){
-        $('#button-enviar').click();
-    }
-});
-
 $('#button-enviar').click(function(){
     var mensaje = $('#text-mensaje').val();
 
