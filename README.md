@@ -1,7 +1,16 @@
 # chat-Nodejs-Socket
 
+## Project setup
+```
+npm install
+```
 
-En consola (nodemon index.js)
+## En consola
+```
+nodemon index.js
+```
+
+## Ruta
 
 
 http://localhost:3000/
