@@ -10,4 +10,7 @@ npm install
 nodemon index.js
 ```
 
+## Ruta
+
+
 http://localhost:3000/
