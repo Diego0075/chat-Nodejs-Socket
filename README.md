@@ -1,7 +1,9 @@
 # chat-Nodejs-Socket
 
-npm Install
-
+## Project setup
+```
+npm install
+```
 
 En consola (nodemon index.js)
 
