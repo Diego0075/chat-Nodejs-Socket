@@ -1,9 +1,7 @@
 # chat-Nodejs-Socket
 
 
-En consola
+En consola (nodemon index.js)
 
-
-nodemon index.js
 
 http://localhost:3000/
